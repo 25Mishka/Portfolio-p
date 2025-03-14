@@ -46,7 +46,7 @@ p {
 }
 
 .btn-branding {
-  background: ;
+  background: var(--branding-color);
   border-radius: 4px;
   color: white;
   line-height: 27px;
