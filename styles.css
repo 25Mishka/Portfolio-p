@@ -48,6 +48,14 @@ p {
   line-height: 2;
   font-size: 24px;
 }
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  line-height: var(--default-font-family);
+}
 
 .btn-branding {
   background: var(--branding-color);
