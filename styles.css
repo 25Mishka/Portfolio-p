@@ -94,15 +94,32 @@ p {
   max-width: 150px;
 }
 
-.nav ul {
+nav {
+  padding: 20px 0;
+}
+nav ul {
   padding: 0;
   margin: 0;
 }
 
-.nav li {
+nav li {
   display: inline;
   list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
+
+nav a {
+  text-decoration: none;
+  color: var(--default-font-family);
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
