@@ -35,8 +35,11 @@
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/" title="Homepage">
-          <img src="images.png\SheCodeslogo.png" class="logo d-none d-md-block"
-          alt="logo />
+          <img
+            src="images.png\SheCodeslogo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
 
           <img
             src="images.png\logo-small.jpg"
@@ -67,18 +70,54 @@
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email</h3>
 
-        <p><a href="mailto:mosak.mokebe@gmail.com">mosa@gmail.com</a></p>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/xkgjzlkr"
+              method="POST"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
 
-        <h3>X</h3>
+              <button type="submit" class="btn btn-branding">Send</button>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <h3>Email</h3>
 
-        <p>@Mosa</p>
-        <h3>Instagram</h3>
-        <p>
-          <a href="https://www.instagram.com/mosamokebe." target="_blank"></a
-          >@Mosa
-        </p>
+            <p><a href="mailto:mosak.mokebe@gmail.com">mosa@gmail.com</a></p>
+
+            <h3>X</h3>
+
+            <p>@Mosa</p>
+            <h3>Instagram</h3>
+            <p>
+              <a
+                href="https://www.instagram.com/mosamokebe."
+                target="_blank"
+              ></a
+              >@Mosa
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
